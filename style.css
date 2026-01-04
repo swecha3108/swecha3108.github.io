@@ -196,3 +196,22 @@ main {
   margin-top: 32px;   /* THIS pushes buttons downward */
 }
 
+.btn {
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 1px solid #cfd8e3;
+  background: white;
+  color: #0f172a;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn:hover {
+  background: #2563eb;       /* blue */
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+}
+
+
