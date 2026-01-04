@@ -122,3 +122,24 @@ main {
   padding: 20px;
 }
 
+.project {
+  background: #fff;
+  border: 1px solid #e6eaf2;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 14px 0;
+}
+
+.project h3 {
+  margin: 0 0 8px 0;
+}
+
+.project p {
+  margin: 6px 0;
+}
+
+.project a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
