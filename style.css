@@ -163,3 +163,30 @@ main {
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.icon-row span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #34495e;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.icon-row i {
+  font-size: 1.1rem;
+  color: #2563eb;
+}
+
