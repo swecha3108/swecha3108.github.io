@@ -144,3 +144,22 @@ main {
   font-weight: 600;
 }
 
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px auto 0;
+}
+
+.pill {
+  border: 1px solid #d9e2ef;
+  background: #ffffff;
+  color: #2c3e50;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
