@@ -214,4 +214,40 @@ main {
   box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
 }
 
+/* --- Action buttons container --- */
+.buttons{
+  margin-top: 22px;              /* pushes GitHub/Email/Resume down */
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* --- Button style --- */
+.buttons .btn{
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 1px solid #cfd8e3;
+  background: white;
+  color: #0f172a;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.buttons .btn:hover{
+  background: #2563eb;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(37,99,235,0.25);
+}
+
+#about p{
+  display: block;
+  color: #334155;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
 
