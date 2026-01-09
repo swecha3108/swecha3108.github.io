@@ -1,54 +1,76 @@
-\# PROJECT TITLE (Example: Kubernetes Monitoring with Prometheus + Grafana)
+# Swecha Siddamshetty – Portfolio 🚀
 
+This repository hosts my personal portfolio website, built to showcase my background, skills, and projects as a **Cloud / DevOps Engineer**.
 
+🔗 **Live Website:**  
+https://swecha3108.github.io/
 
-\*\*What it does:\*\* 1–2 lines explaining the project outcome (monitoring + alerts + dashboards).  
+---
 
-\*\*Why it matters:\*\* 1 line (helps reliability, faster troubleshooting, proactive alerting).
+## 👩‍💻 About Me
 
+I am a Cloud and DevOps Engineer with hands-on experience in **AWS, Terraform, Kubernetes, CI/CD pipelines, and monitoring tools**.  
+I am passionate about building scalable, reliable, and automated cloud infrastructure.
 
+---
 
-\## Tech Stack
+## 🛠️ Tech Stack
 
-\- Kubernetes
+- **Cloud:** AWS  
+- **Infrastructure as Code:** Terraform  
+- **Containers & Orchestration:** Docker, Kubernetes  
+- **CI/CD:** GitHub Actions  
+- **Monitoring & Observability:** Prometheus, Grafana  
+- **Version Control:** Git & GitHub  
 
-\- Prometheus
+---
 
-\- Grafana
+## 📂 Project Highlights
 
-\- (Add: Helm / manifests / node-exporter / whatever you used)
+### 🔹 Kubernetes Monitoring (Prometheus & Grafana)
+- Implemented cluster-wide monitoring using Prometheus and Grafana  
+- Built dashboards for resource usage and alerts  
+🔗 https://github.com/swecha3108/k8s-monitoring-prometheus-grafana
 
+### 🔹 Kubernetes Deployment Strategies
+- Implemented Rolling Updates and Blue/Green deployments  
+🔗 https://github.com/swecha3108/k8s-deployment-strategies
 
+### 🔹 Terraform Multi-Environment Infrastructure
+- Designed reusable Terraform modules for dev, stage, and prod environments  
+🔗 https://github.com/swecha3108/terraform-multi-env-infra
 
-\## Architecture
+### 🔹 CI/CD with GitHub Actions
+- Automated CI pipelines using GitHub Actions for containerized workloads  
+🔗 https://github.com/swecha3108/cicd-github-actions-k8s
 
-!\[Architecture Diagram](docs/architecture.png)
+---
 
+## 📄 Resume
 
+My latest resume is available directly from the portfolio website:  
+➡️ **Download Resume** button (top section)
 
-\## What I Built
+---
 
-\- ✅ Deployed Prometheus to scrape Kubernetes metrics
+## 🚀 Deployment (GitHub Pages)
 
-\- ✅ Configured ServiceMonitor / scrape configs (if applicable)
+This site is deployed using **GitHub Pages**.
 
-\- ✅ Deployed Grafana dashboards for cluster health + performance
+**How it works:**
+- Repository name: `swecha3108.github.io`
+- Branch: `main`
+- Folder: root (`/`)
+- Entry file: `index.html`
 
-\- ✅ Added alerting rules (CPU/memory/pod restarts)
+GitHub automatically serves the site at:  
+https://swecha3108.github.io/
 
+---
 
+## 📬 Contact
 
-\## How to Run (Local / Cluster)
+- **GitHub:** https://github.com/swecha3108  
+- **LinkedIn:** https://www.linkedin.com/in/swecha-siddamshetty  
 
-> Prereqs: kubectl, a running cluster (minikube/kind/EKS), etc.
-
-
-
-```bash
-
-kubectl apply -f manifests/prometheus/
-
-kubectl apply -f manifests/grafana/
-
-
-
+---
