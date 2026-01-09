@@ -353,5 +353,12 @@ main {
   background-color: #0056b3;
 }
 
+.profile-pic{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 
 
